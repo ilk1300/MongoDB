@@ -228,7 +228,7 @@ db.posts.update({ title: 'Post One' },
 db.posts.find({
   comments: {
      $elemMatch: {
-       author: 'Mary Williams'
+       user: 'Mary Williams'
        }
     }
   }
