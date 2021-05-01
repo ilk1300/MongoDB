@@ -86,7 +86,7 @@ db.posts.find()
 ## Get All Rows Formatted
 
 ```
-db.find().pretty()
+db.posts.find().pretty()
 ```
 
 ## Find Rows
